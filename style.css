@@ -1,3 +1,45 @@
 body {
   margin: 10px;
 }
+
+.header {
+  color: #55bbf7;
+  font-size: 30px;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Arial Rounded MT Bold";
+}
+
+.subheader {
+  color: #55bbf7;
+  font-size: 12px;
+  padding: 10px 0;
+  text-align: center;
+  font-family: "Arial Rounded MT Bold";
+}
+
+.video {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.button {
+  background-color: #55bbf7;
+  border: none;
+  color: white;
+  padding: 0px 24px;
+  font-family: "Arial Rounded MT Bold";
+  border-radius: 4px;
+  height: 24px;
+  margin-left: 4px;
+}
+
+.button2 {background-color: #55bbf7;}
+.button3 {background-color: #55bbf7;} 
+.button4 {background-color: #55bbf7;}
+.button5 {background-color: #55bbf7;}
