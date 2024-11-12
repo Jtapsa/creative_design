@@ -8,11 +8,33 @@
 </head>
 
 <body>
+  <div class="header" id="header">
   <h1>
-    Hi
+    Moodler
   </h1>
-  <p>
-  </p>
-  <script src="script.js"></script>
+  </div>
+  <div class="video">
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&loop=1" id="video">
+</iframe>
+    <div class="subheader">
+  <h1>
+    click your mood                
+  </h1>
+  </div>
+  </div>
+  <div class="buttons" id="buttons">
+    <button class="button" onclick="changeValue()" value="https://www.youtube.com/embed/V9PVRfjEBTI?">Travel</button>
+    <button class="button button2">Enjoy</button>
+    <button class="button button3">Sad</button>
+    <button class="button button4">Summer</button>
+    <button class="button button5">Inspiration</button>
+  </div>
+  <script>
+    document.getElementById("buttons").addEventListener("click", myFunction);
+    function myFunction(event) {
+      const video = document.getElementById("video");
+      video.value = event.target.value + 'autoplay=1&mute=1&loop=1';
+    }
+</script>
 </body>
 </html>
