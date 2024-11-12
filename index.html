@@ -6,12 +6,16 @@
   <link rel="stylesheet" href="style.css" />
   <title>App</title>
 </head>
-
 <body>
   <div class="header" id="header">
   <h1>
     Moodler
   </h1>
+  </div>
+  <div class="title" id="title">
+  <p>
+    Travel
+  </p>
   </div>
   <div class="video">
     <iframe width="420" height="300" id="video" src="https://www.youtube.com/embed/z7yqtW4Isec?si=6H64zS1lfoZnko78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -32,23 +36,28 @@
   <script>
   function button1() {
   	const video = document.getElementById("video");
-  	video.src = "https://www.youtube.com/embed/z7yqtW4Isec?si=6H64zS1lfoZnko7?autoplay=1&loop=1";
+  	video.src = "https://www.youtube.com/embed/z7yqtW4Isec";
+    document.getElementById("title").innerHTML = "Travel"
   }
   function button2() {
   	const video = document.getElementById("video");
-  	video.src = "https://www.youtube.com/embed/V9PVRfjEBTI?si=twGARYGW1hao8FxTautoplay=1&mute=1&loop=1";
+  	video.src = "https://www.youtube.com/embed/c0ZzN6hxdzo?si=J-gxhWBM9l5LNfE-";
+    document.getElementById("title").innerHTML = "Enjoy"
   }
   function button3() {
   	const video = document.getElementById("video");
-  	video.src = "https://www.youtube.com/embed/V9PVRfjEBTI?si=twGARYGW1hao8FxT";
+  	video.src = "https://www.youtube.com/embed/rz5TGN7eUcM?si=ySA9MAR46IBSm-E";
+    document.getElementById("title").innerHTML = "Sad"
   }
   function button4() {
   	const video = document.getElementById("video");
-  	video.src = "https://www.youtube.com/embed/V9PVRfjEBTI?si=twGARYGW1hao8FxT";
+  	video.src = "https://www.youtube.com/embed/1YvdAZ9LMik?si=uP351utNab_2DgEB";
+    document.getElementById("title").innerHTML = "Summer"
   }
   function button5() {
   	const video = document.getElementById("video");
-  	video.src = "https://www.youtube.com/embed/V9PVRfjEBTI?si=twGARYGW1hao8FxT";
+  	video.src = "https://www.youtube.com/embed/c0ZzN6hxdzo?si=J-gxhWBM9l5LNfE-";
+    document.getElementById("title").innerHTML = "Inspiration"
   }
 </script>
 </body>
