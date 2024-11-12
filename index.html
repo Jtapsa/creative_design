@@ -23,14 +23,14 @@
   </div>
   </div>
   <div class="buttons" id="buttons">
-    <button class="button" onclick="changeValue()" value="https://www.youtube.com/embed/V9PVRfjEBTI?">Travel</button>
+    <button class="button" onclick="changeValue()" value="https://www.youtube.com/embed/V9PVRfjEBTI?" id="button1">Travel</button>
     <button class="button button2">Enjoy</button>
     <button class="button button3">Sad</button>
     <button class="button button4">Summer</button>
     <button class="button button5">Inspiration</button>
   </div>
   <script>
-    document.getElementById("buttons").addEventListener("click", myFunction);
+    document.getElementById("button1").addEventListener("click", myFunction);
     function myFunction(event) {
       const video = document.getElementById("video");
       video.value = event.target.value + 'autoplay=1&mute=1&loop=1';
