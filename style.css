@@ -10,6 +10,14 @@ body {
   font-family: "Arial Rounded MT Bold";
 }
 
+.title {
+  color: #807e7e;
+  font-size: 20px;
+  padding: 0px 0;
+  text-align: center;
+  font-family: "Arial Rounded MT Bold";
+}
+
 .subheader {
   color: #55bbf7;
   font-size: 12px;
